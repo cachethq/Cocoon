@@ -1,0 +1,55 @@
+{
+    "name": "cachethq/cocoon",
+    "description": "A lightweight theming package for Laravel.",
+    "keywords": ["cachethq", "cachet", "cocoon", "laravel", "theme"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Brooks",
+            "email": "james@alt-three.com"
+        }, {
+            "name": "Graham Campbell",
+            "email": "graham@alt-three.com"
+        }, {
+            "name": "Joseph Cohen",
+            "email": "joe@alt-three.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/contracts": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*"
+    },
+    "require-dev": {
+        "graham-campbell/analyzer": "^2.0",
+        "graham-campbell/markdown": "^10.0",
+        "graham-campbell/testbench": "^5.0",
+        "phpunit/phpunit": "^6.5|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CachetHQ\\Cocoon\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CachetHQ\\Tests\\Cocoon\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "CachetHQ\\Cocoon\\CocoonServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
