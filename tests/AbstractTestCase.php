@@ -12,7 +12,6 @@
 namespace CachetHQ\Tests\Cocoon;
 
 use CachetHQ\Cocoon\CocoonServiceProvider;
-use GrahamCampbell\Markdown\MarkdownServiceProvider;
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
 
 /**

@@ -11,8 +11,6 @@
 
 namespace CachetHQ\Cocoon\Events;
 
-use Illuminate\Contracts\Container\Container;
-
 /**
  * This is the theme was activated event class.
  *
