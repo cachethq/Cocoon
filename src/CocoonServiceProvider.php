@@ -18,7 +18,7 @@ use Illuminate\Support\ServiceProvider;
 /**
  * This is the cocoon service provider class.
  *
- * @author James Brooks <james@bluebaytravel.co.uk>
+ * @author James Brooks <james@alt-three.com>
  */
 class CocoonServiceProvider extends ServiceProvider
 {
